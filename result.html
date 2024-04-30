@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis Result</title>
+</head>
+<body>
+    <h1>Text Analysis Result</h1>
+    <p><strong>Text:</strong> {{ text }}</p>
+    <p><strong>Perplexity:</strong> {{ perplexity }}</p>
+    <p><strong>Burstiness Score:</strong> {{ burstiness_score }}</p>
+    <p>{{ result }}</p>
+
+    <h2>Top 10 Most Repeated Words</h2>
+    <img src="data:image/png;base64,{{ encoded_img }}" alt="Top Repeated Words">
+</body>
+</html>

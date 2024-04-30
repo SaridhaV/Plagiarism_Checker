@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT Shield: AI Plagiarism Detector</title>
+    <style>
+        body {
+            background-image: url('C:\Users\Admin\OneDrive\Desktop\New folder (2)\templates\chceker.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        textarea {
+            width: 100%;
+            resize: vertical;
+        }
+        input[type="submit"] {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>GPT Shield: AI Plagiarism Detector</h1>
+    <form action="/analyze" method="post">
+        <label for="text">Enter text:</label><br>
+        <textarea id="text" name="text" rows="6" cols="50"></textarea><br><br>
+        <input type="submit" value="Analyze">
+    </form>
+</body>
+</html>
